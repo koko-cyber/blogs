@@ -14,7 +14,27 @@
    <!-- Custom Styles -->
    <style>
      :root {
-       --theme-hue: 325;
+      --theme-hue: 325;
+      /* Tab blocks */
+      --docsifytabs-border-color    : var(--mono-tint2);
+      --docsifytabs-border-radius-px: var(--border-radius-s);
+
+      /* Tabs */
+      --docsifytabs-tab-background  : var(--mono-tint3);
+      --docsifytabs-tab-color       : var(--mono-tint1);
+
+      --zoomimage-overlay-background: rgba(0, 0, 0, 0.875);
+
+      --pagination-border-top            : 1px solid var(--mono-tint2);
+      --pagination-chevron-height        : 0.8em;
+      --pagination-chevron-stroke        : currentColor;
+      --pagination-chevron-stroke-linecap: round;
+      --pagination-chevron-stroke-width  : 1px;
+      --pagination-label-color           : ;
+      --pagination-label-font-size       : var(--font-size-s);
+      --pagination-title-color           : ;
+      --pagination-title-font-size       : var(--font-size-l);
+
      }
    </style>
 </head>
@@ -25,11 +45,6 @@
      // Docsify Configuration
      window.$docsify = {
        // ..
-       name: koko,
-       repo: "https://koko-cyber.github.io/blogs/",
-       coverpage: true,
-       loadNavbar: true,
-       maxLevel: 4,
      };
    </script>
 
