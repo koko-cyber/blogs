@@ -7,20 +7,24 @@
   <meta name="description" content="">
   <title></title>
 
+
+  
   <!-- Themes (light + dark) -->
   <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
   <link rel="stylesheet" media="(prefers-color-scheme: light)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
 
   <!-- Custom Styles -->
   <style>
      :root {
       --theme-hue: 325;
       /* Tab blocks */
-      --docsifytabs-border-color    : var(--mono-tint2);
-      --docsifytabs-border-radius-px: var(--border-radius-s);
+      /* --docsifytabs-border-color    : var(--mono-tint2);
+      --docsifytabs-border-radius-px: var(--border-radius-s); */
 
       /* Tabs */
-      --docsifytabs-tab-background  : var(--mono-tint3);
+      /* --docsifytabs-tab-background  : var(--mono-tint3);
       --docsifytabs-tab-color       : var(--mono-tint1);
 
       --zoomimage-overlay-background: rgba(0, 0, 0, 0.875);
@@ -33,7 +37,7 @@
       --pagination-label-color           : ;
       --pagination-label-font-size       : var(--font-size-s);
       --pagination-title-color           : ;
-      --pagination-title-font-size       : var(--font-size-l);
+      --pagination-title-font-size       : var(--font-size-l); */
 
      }
   </style>
@@ -44,13 +48,26 @@
   // Docsify Configuration
     window.$docsify = {
       coverpage: true,
-      // loadSidebar: true,
+      loadSidebar: true,
       subMaxLevel: 2
       
     };
   </script>
     
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+    
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+  <script>
+    const gitalk = new Gitalk({
+      clientID: 'Github Application Client ID',
+      clientSecret: 'Github Application Client Secret',
+      repo: 'Github repo',
+      owner: 'Github repo owner',
+      admin: ['Github repo collaborators, only these guys can initialize github issues'],
+      // facebook-like distraction free mode
+      distractionFreeMode: false
+    })
+  </script>
 
   <!-- Required -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
