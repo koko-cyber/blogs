@@ -1,4 +1,4 @@
-![logo](docs/_media/icon.svg)
+![logo](https://github.com/koko-cyber/blogs/blob/main/docs/_media/icon.jpg?raw=true)
 
 # docsify <small>3.5</small>
 
