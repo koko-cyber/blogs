@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
   <meta name="description" content="">
-  <title></title>
+  <title>Blogs</title>
 
 
   
@@ -19,29 +19,10 @@
 
   <!-- Custom Styles -->
   <style>
-     :root {
+    :root {
       --theme-hue: 325;
-      /* Tab blocks */
-      /* --docsifytabs-border-color    : var(--mono-tint2);
-      --docsifytabs-border-radius-px: var(--border-radius-s); */
-
-      /* Tabs */
-      /* --docsifytabs-tab-background  : var(--mono-tint3);
-      --docsifytabs-tab-color       : var(--mono-tint1);
-
       --zoomimage-overlay-background: rgba(0, 0, 0, 0.875);
-
-      --pagination-border-top            : 1px solid var(--mono-tint2);
-      --pagination-chevron-height        : 0.8em;
-      --pagination-chevron-stroke        : currentColor;
-      --pagination-chevron-stroke-linecap: round;
-      --pagination-chevron-stroke-width  : 1px;
-      --pagination-label-color           : ;
-      --pagination-label-font-size       : var(--font-size-s);
-      --pagination-title-color           : ;
-      --pagination-title-font-size       : var(--font-size-l); */
-
-     }
+    }
   </style>
 </head>
 <body>
@@ -50,16 +31,19 @@
   <script>
   // Docsify Configuration
     window.$docsify = {
-      coverpage: true,
       loadSidebar: true,
-      subMaxLevel: 2
-      
+      auto2top: true,
+      maxLevel: 3,
+      subMaxLevel: 3,
+      formatUpdated: '{MM}/{DD} {HH}:{mm}',
     };
   </script>
-    
-    <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
-    <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
-    <script src="/root/codes/blog/docs/_js/md5.min.js"></script>
+
+
+
+  <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
   <script>
     const gitalk = new Gitalk({
       clientID: 'f668fe20656f955a7bcf',
@@ -70,7 +54,6 @@
       id: location.pathname,
       // facebook-like distraction free mode
       distractionFreeMode: false,
-      
 
     })
 
