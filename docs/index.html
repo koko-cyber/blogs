@@ -46,6 +46,14 @@
         language:'chinese'
     },
     
+    tabs: {
+      persist    : true,      // default
+      sync       : true,      // default
+      theme      : 'classic', // default
+      tabComments: true,      // default
+      tabHeadings: true       // default
+   },
+
       formatUpdated: '{MM}/{DD} {HH}:{mm}',
     };
   </script>
@@ -78,5 +86,12 @@
   
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
   <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+
+  // 分页导航
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  
+  // Tab
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
 </body>
 </html>
