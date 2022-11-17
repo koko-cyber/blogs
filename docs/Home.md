@@ -1,4 +1,5 @@
-Home
+# Home
+
 <!-- tabs:start -->
 ## 純真です!
 > 理塘最強伝説
