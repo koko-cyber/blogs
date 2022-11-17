@@ -37,6 +37,15 @@
       auto2top: true,
       maxLevel: 3,
       subMaxLevel: 3,
+
+      // 字数统计
+      count:{
+        countable:true,
+        fontsize:'0.9em',
+        color:'rgb(90,90,90)',
+        language:'chinese'
+    },
+    
       formatUpdated: '{MM}/{DD} {HH}:{mm}',
     };
   </script>
@@ -52,15 +61,7 @@
       owner: 'koko-cyber',
       admin: ['koko-cyber'],
       id: location.pathname,
-      
-      // 字数统计
-      count:{
-        countable:true,
-        fontsize:'0.9em',
-        color:'rgb(90,90,90)',
-        language:'chinese'
-    },
-
+      labels: ['Gitalk', 'Home'],
       // facebook-like distraction free mode
       distractionFreeMode: false,
     })
