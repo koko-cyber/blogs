@@ -1,7 +1,6 @@
 # Home
 
-
-<!-- tabs:start -->
+tabs:start
 
 #### **English**
 
@@ -15,4 +14,4 @@ Bonjour!
 
 Ciao!
 
-<!-- tabs:end -->
+tabs:end
