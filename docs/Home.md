@@ -1,11 +1,18 @@
 # Home
 
+
 <!-- tabs:start -->
-#### **純真です!**
 
-> 理塘最強伝説
+#### **English**
 
-#### **丁一郎!**
+Hello!
 
-> 絕兇の猛虎
+#### **French**
+
+Bonjour!
+
+#### **Italian**
+
+Ciao!
+
 <!-- tabs:end -->
