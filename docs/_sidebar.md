@@ -1,1 +1,2 @@
+* [Home](/)
 * [hook](/hook)
