@@ -1,2 +1,1 @@
-* [Home](/)
-* [hook](/hook)
+* [Home](/Home.md)
