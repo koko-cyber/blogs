@@ -7,6 +7,8 @@
   <meta name="description" content="">
   <title>Blogs</title>
 
+  
+  <link rel="shortcut icon" href="https://github.githubassets.com/images/mona-loading-dimmed.gif"/>
   <!-- Themes (light + dark) -->
   <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
   <link rel="stylesheet" media="(prefers-color-scheme: light)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
@@ -84,7 +86,7 @@
         fontsize:'0.9em',
         color:'rgb(90,90,90)',
         language:'chinese'
-    },
+      },
     
       tabs: {
         persist    : true,      // default
@@ -92,9 +94,10 @@
         theme      : 'classic', // default
         tabComments: true,      // default
         tabHeadings: true       // default
-      }
+      },
     };
   </script>
+
 
   <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
   <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
@@ -121,14 +124,24 @@
   <!-- Recommended -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
-  
+
+  <!-- Markdown mermaid-->
+  <script src="//unpkg.com/mermaid/dist/mermaid.js"></script>
+  <script src="//unpkg.com/docsify-mermaid@latest/dist/docsify-mermaid.js"></script>
+  <script>mermaid.initialize({ startOnLoad: true });</script>
+
+  <!-- 统计字数 | 复制代码 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
   <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+  
 
   <!-- 分页导航 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
   
   <!-- Tab -->
   <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+
+
+
 </body>
 </html>
