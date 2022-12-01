@@ -2,4 +2,4 @@
 
 > 理塘最強伝説と絕兇の猛虎！
 
-[Get Started](https://t.me/+vgQLFl1MkQcwYmU1)
+[Telegram](https://t.me/+vgQLFl1MkQcwYmU1)
